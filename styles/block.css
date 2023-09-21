@@ -1,0 +1,73 @@
+.blog  {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.first{
+    width: 1200px;
+height: 386px;
+top:366px ;
+left:100px ;
+border-radius: 24px;
+display: flex;
+justify-content: center;
+margin: 0 auto;
+gap: 73px;
+}
+.pitch{
+    width: Fixed (550px);
+height: Fixed (247px);
+margin-top: 56px;
+margin-left: 50px;
+gap: 20px;
+}
+.small{
+    gap: 12px;
+    display: flex;
+color: #0A2640;
+ font-size: 16px;
+ font-family: Open Sans;
+ font-weight: 700;
+ line-height: 28px;
+ word-wrap: break-word;
+color: #777777;
+ font-size: 16px;
+ font-family: Open Sans;
+ font-weight: 400;
+ line-height: 28px;
+ word-wrap: break-word;
+}
+.focus{
+    width: 543px;
+    height: 145px ;
+}
+.term{
+color: black;
+ font-size: 48px;
+ font-family: Manrope;
+ font-weight: 400;
+ line-height: 72px;
+ word-wrap: break-word;
+}
+.comment{
+    display: flex;
+    width: 350px;
+    height: 32px;
+}
+.center{
+    width: 842px;
+    height: 72px; 
+    margin: 0 auto;  
+}
+
+.second{
+    display: flex;
+ width: 998px;
+height: 424px;
+margin: 0 auto;
+}
+.btn{
+    display: flex;
+    margin-left: 650px;
+}
