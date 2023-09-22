@@ -9,6 +9,8 @@
 
 body {
   font-family: "Open sans", sans-serif;
+  width: 1510px;
+  margin: 0 auto;
 }
 
 ul {
@@ -52,6 +54,9 @@ img {
   display: flex;
 }
 
+.wrap {
+  flex-wrap: wrap;
+}
 .align-center {
   align-items: center;
 }
@@ -105,11 +110,11 @@ img {
 }
 
 .gap-2 {
-  gap: 2rem;
+  gap: 1.5rem;
 }
 
 .gap-3 {
-  gap: 3rem;
+  gap: 3.5rem;
 }
 
 .flex-1 {
