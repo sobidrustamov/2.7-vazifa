@@ -9,7 +9,7 @@
 
 body {
   font-family: "Open sans", sans-serif;
-  width: 1510px;
+  width: 1400px;
   margin: 0 auto;
 }
 
@@ -29,6 +29,7 @@ button,
   padding: 0.8em 1.4em;
   font-size: 1rem;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 img {

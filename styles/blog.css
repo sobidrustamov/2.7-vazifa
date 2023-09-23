@@ -6,6 +6,8 @@
   top: 0;
   right: 0;
   z-index: 99999;
+  background-color: #fff;
+  padding-bottom: 40px;
 }
 .header_list {
   width: 100%;
@@ -17,7 +19,6 @@
   padding-top: 56px;
 }
 .header_nav_list {
-  display: flex;
   gap: 40px;
 }
 .header_item a {

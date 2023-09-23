@@ -5,6 +5,8 @@
 }
 
 body {
+  width: 1400px;
+  margin: 0 auto;
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   font-style: normal;
@@ -27,6 +29,8 @@ body {
 .header {
   width: 1400px;
   margin: 0 auto;
+  position: fixed;
+  z-index: 9999;
 }
 .header_list {
   width: 100%;
@@ -37,10 +41,12 @@ body {
   justify-content: space-between;
   padding-top: 56px;
   background-color: #0a2640;
+  padding-bottom: 40px;
 }
 .header_nav_list {
   display: flex;
   gap: 40px;
+  align-items: center;
 }
 .header_item a {
   font-weight: 600;
@@ -62,8 +68,8 @@ body {
 }
 
 .kirish {
-  height: 615px;
   background: #0a2640;
+  height: 615px;
   text-align: center;
   padding-top: 155px;
   margin: 0 auto;
@@ -323,8 +329,8 @@ body {
 }
 
 .values_time p {
-  color: var(--Light-Grey, #F1F1F1);
-font-size: 20px;
-line-height: 32px;
+  color: var(--Light-Grey, #f1f1f1);
+  font-size: 20px;
+  line-height: 32px;
 }
 /* section values end */

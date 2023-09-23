@@ -1,6 +1,7 @@
 /* main-header */
 
 #main-header {
+  padding-top: 200px;
   background: #0a2640;
   color: #fff;
   background-image: url(../images/main-header-bg.png);
@@ -11,6 +12,14 @@
 
 header {
   padding: 57px 0 64px;
+  position: fixed;
+  width: 1400px;
+  background-color: #0a2640;
+  background-image: url(../images/main-header-bg.png);
+  background-repeat: no-repeat;
+  background-position: 100% 0;
+  top: 0;
+  z-index: 99999;
 }
 
 .navbar {
@@ -281,27 +290,43 @@ header {
 
 /* connect */
 
-#connect ul li {
-  position: relative;
-  padding-left: 61px;
-  color: #000;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 32px;
+#connect,
+.container {
+  gap: 150px;
 }
-#connect ul li::before {
-  content: url(../images/feather.png);
-  width: 36px;
-  position: absolute;
-  height: 36px;
-  bottom: -6px;
-  left: 0;
-  background-color: #0a2640;
-  border-radius: 50%;
+
+.left-connect li {
+  width: 500px;
+  height: 68px;
+  flex-shrink: 0;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
   display: flex;
-  justify-content: center;
-  align-items: end;
+  align-items: center;
+  padding-left: 24px;
+  line-height: 36px;
+  box-shadow: 0px 4px 32px 0px rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+}
+
+.left-connect li:nth-child(1) {
+  color: #fff;
+  background: var(--Dark-Blue, #0a2640);
+  margin-top: 64px;
+}
+
+.left-connect li span {
+  width: 24px;
+  height: 24px;
+  margin-right: 14px;
+}
+
+#connect .customers-diagram {
+  width: 291px;
+  left: 48px;
+  top: 300px;
 }
 
 /* connect end */
