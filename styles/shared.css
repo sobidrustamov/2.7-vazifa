@@ -9,6 +9,8 @@
 
 body {
   font-family: "Open sans", sans-serif;
+  width: 100%;
+  margin: 0 auto;
 }
 
 ul {
@@ -27,6 +29,7 @@ button,
   padding: 0.8em 1.4em;
   font-size: 1rem;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 img {
@@ -52,6 +55,9 @@ img {
   display: flex;
 }
 
+.wrap {
+  flex-wrap: wrap;
+}
 .align-center {
   align-items: center;
 }
@@ -105,11 +111,11 @@ img {
 }
 
 .gap-2 {
-  gap: 2rem;
+  gap: 1.5rem;
 }
 
 .gap-3 {
-  gap: 3rem;
+  gap: 3.5rem;
 }
 .gap-6 {
   gap: 5.4rem;
